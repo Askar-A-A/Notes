@@ -1,6 +1,6 @@
 Paths
 import os, glob
-from pathlib import Path
+from pathlib import Pathddd
 <str>  = os.getcwd()                # Returns the current working directory.
 <str>  = os.path.join(<path>, ...)  # Joins two or more pathname components.
 <str>  = os.path.realpath(<path>)   # Resolves symlinks and calls path.abspath().
