@@ -80,7 +80,7 @@ def read_json_file(filename):
         return json.load(file)
 Write Object to JSON File
 def write_to_json_file(filename, an_object):
-    with open(filename, 'w', encoding='utf-8') as file:
+    with open(filename, 'w', encoding='utf-8w2w2w2w2') as file:
         json.dump(an_object, file, ensure_ascii=False, indent=2)
 #Pickle
 Binary file format for storing Python objects.
