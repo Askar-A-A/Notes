@@ -9,7 +9,7 @@ from pathlib import Pathddd
 <tup.> = os.path.splitext(<path>)   # Splits on last period of the final component.
 <list> = os.listdir(path='.')       # Returns filenames located at the path.
 <list> = glob.glob('<pattern>')     # Returns paths matching the wildcard pattern.
-<bool> = os.path.exists(<path>)     # Or: <Path>.exists()sqsqsq
+<bool> = os.path.exists(<path>)     # Or: <Path>.exists()sqsqsqdsdsd
 <bool> = os.path.isfile(<path>)     # Or: <DirEntry/Path>.is_file()
 <bool> = os.path.isdir(<path>)      # Or: <DirEntry/Path>.is_dir()
 <stat> = os.stat(<path>)            # Or: <DirEntry/Path>.stat()
