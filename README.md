@@ -5,7 +5,7 @@ from pathlib import Pathddd
 <str>  = os.path.join(<path>, ...)  # Joins two or more pathname components.
 <str>  = os.path.realpath(<path>)   # Resolves symlinks and calls path.abspath().swswswswswsw
 <str>  = os.path.basename(<path>)   # Returns final component of the path.swswsws
-<str>  = os.path.dirname(<path>)    # Returns path without thw3w3w3we final component.r4r4r4
+<str>  = os.path.dirname(<path>)    # Returns path without thw3w3w3we final component.r4r4r4dsdsdd
 <tup.> = os.path.splitext(<path>)   # Splits on last perioe3e3e3ed of the final component.
 <list> = os.listdir(path='.')       # Returns filenames located at the path.
 <list> = glob.glob('<pattern>')     # Returns paths matching the wildt5t5tcard patterdsdsdssdn.
