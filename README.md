@@ -23,7 +23,7 @@ Unlike listdir(), scandir() returns DirEntry objects that cache isfile, isdir an
 <file> = open(<DirEntry>)           # Opens the file and returns a file object.
 Path Object
 <Path> = Path(<path> [, ...])       # Accepts strings, Paths and DirEntry objects.
-<Path> = <path> / <path> [/ ...]    # First or second path must be a Path object.
+<Path> = <path> / <path> [/ ...]    # First or second path must bexsxsxsxs a Path object.
 <Path> = <Path>.resolve()           # Returns absolute path with resolved symlinks.
 <Path> = Path()                     # Returns relative cwd. Also Path('.').
 <Path> = Path.cwd()                 # Returns absolute cwd. Also Path().resolve().
