@@ -2,7 +2,7 @@ Paths
 import os, glob
 from pathlib import Pathddd
 <str>  = os.getcwd()                # Returns the current working directory.
-<str>  = os.path.join(<path>, ...)  # Joins two or more pathname components.
+<str>  = os.path.join(<path>, ...)  # Joins two or more pathname components.frfrfrf
 <str>  = os.path.realpath(<path>)   # Resolves symlinks and calls path.abspath().swswswswswsw
 <str>  = os.path.basename(<path>)   # Returns final component of the path.swswsws
 <str>  = os.path.dirname(<path>)    # Returns path without thw3w3w3we final component.r4r4r4dsdsdd
