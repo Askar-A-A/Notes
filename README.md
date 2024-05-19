@@ -7,7 +7,7 @@ from pathlib import Pathddd
 <str>  = os.path.basename(<path>)   # Returns final component of the path.swswswsfrfrf
 <str>  = os.path.dirname(<path>)    # Returns path without thw3w3w3we final component.r4r4r4dsdsdd
 <tup.> = os.path.splitext(<path>)   # Splits on last perioe3e3e3ed of the final component.
-<list> = os.listdir(path='.')       # Returns filenames located at the path.frfrfrfrdeded
+<list> = os.listdir(path='.')       # Returns filenames located at the dedededpath.frfrfrfrdeded
 <list> = glob.glob('<pattern>')     # Returnscscscscscpaths matching the wildt5t5tcard patterdsdsdssdn.
 <bool> = os.path.exists(<path>)     # Or: <Path>.exists()sqsqsqdsdsddsdsdsdwdwdwdw
 <bool> = os.path.isfile(<path>)     # Or: <DirEntry/Path>.is_file()
