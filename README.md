@@ -10,7 +10,7 @@ from pathlib import Pathddd
 <list> = os.listdir(path='.')       # Returns filenames located at the dedededpath.frfrfrfrdeded
 <list> = glob.glob('<pattern>')     # Returnscscscscscpaths matching the wildt5t5tcard pswswswswwswswsatterdsdsdssdn.
 <bool> = os.path.exists(<path>)     # Or: <Path>.exists()sqsqsqdsddwdwdsddsdsdsdwdwdwdwswswswsw
-<bool> = os.path.isfile(<path>)     # Or: <DirEntry/Path>.is_file()
+<bool> = os.path.isfile(<path>)     # Or: <DirEntry/Path>.is_file()wwww
 <bool> = os.path.isdir(<path>)      # Or: <DirEntry/Path>.is_dir()
 <stat> = os.stat(<path>)            # Or: <DirEntry/Path>.stat()
 <real> = <stat>.st_mtime/st_size/…  # Modification time, size in bytes, ...wwwww
