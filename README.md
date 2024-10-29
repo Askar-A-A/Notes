@@ -13,7 +13,7 @@ from pathlib import Pathddd
 <bool> = os.path.isfile(<path>)     # Or: <DirEntry/Path>.is_file()
 <bool> = os.path.isdir(<path>)      # Or: <DirEntry/Path>.is_dir()
 <stat> = os.stat(<path>)            # Or: <DirEntry/Path>.stat()
-<real> = <stat>.st_mtime/st_size/…  # Modification time, size in bytes, ...
+<real> = <stat>.st_mtime/st_size/…  # Modification time, size in bytes, ...wwwww
 DirEntry
 Unlike listdir(), scandir() returns DirEntry objects that cache isfile, isdir and on Windows also stat information, thus significantly increasing the performance of code that requires it.
 
