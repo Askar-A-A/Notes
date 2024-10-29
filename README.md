@@ -17,7 +17,7 @@ from pathlib import Pathddd
 DirEntry
 Unlike listdir(), scandir() returns DirEntry objects that cache isfile, isdir and on Windows also stat information, thus significantly increasing the performance of code that requires it.
 
-<iter> = os.scandir(path='.')       # Returns DirEntry objects located at the path.
+<iter> = os.scandir(path='.')       # Returns DirEntry objects located at the path.wwww
 <str>  = <DirEntry>.path            # Returns the whole path as a string.
 <str>  = <DirEntry>.name            # Returns final component as a string.
 <file> = open(<DirEntry>)           # Opens the file and returns a file object.
